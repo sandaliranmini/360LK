@@ -3,31 +3,32 @@ import { Hourglass, MapPin, RotateCw, Film, Users, DollarSign, GraduationCap, Ey
 const highlightCards = [
   {
     icon: Hourglass,
-    image: "public\images\YVG_01.png",
+    image: "/images/YVG_01.png",
     title: "2500+ Years",
     subtitle: "of History",
   },
   {
     icon: MapPin,
-    image: "public\images\YVG_02.png",
+    image: "/images/YVG_02.png",
     title: "100+ Destinations",
     subtitle: "To Explore",
   },
   {
     icon: RotateCw,
-    image: "public\images\YVG_03.png",
+    image: "/images/YVG_03.png",
     title: "360 Experiences",
     subtitle: "Immersive Tours",
   },
   {
     icon: Film,
-    image: "public\images\YVG_04.png",
+    image: "/images/YVG_04.png",
     title: "High-Quality 4K",
     subtitle: "Virtual Tours",
   },
 ];
  
-
+export default function YourVirtualGateway(){
+    return(
 <section className="bg-[#f0e4c8] px-6 py-16 md:px-12">
         <div className="mx-auto max-w-6xl text-center">
           <h2 className="font-serif text-2xl tracking-wide text-[#2c2416] md:text-3xl">
@@ -54,3 +55,5 @@ const highlightCards = [
           </div>
         </div>
       </section>
+    );
+}
