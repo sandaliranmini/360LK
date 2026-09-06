@@ -3,25 +3,25 @@ import { Hourglass, MapPin, RotateCw, Film, Users, DollarSign, GraduationCap, Ey
 const highlightCards = [
   {
     icon: Hourglass,
-    image: "https://placehold.co/500x650/6b6455/e8e2d0?text=Temple+Steps",
+    image: "public\images\YVG_01.png",
     title: "2500+ Years",
     subtitle: "of History",
   },
   {
     icon: MapPin,
-    image: "https://placehold.co/500x650/2b4a3f/dce8df?text=Coastline",
+    image: "public\images\YVG_02.png",
     title: "100+ Destinations",
     subtitle: "To Explore",
   },
   {
     icon: RotateCw,
-    image: "https://placehold.co/500x650/3f5230/dbe4cf?text=Hill+Country",
+    image: "public\images\YVG_03.png",
     title: "360 Experiences",
     subtitle: "Immersive Tours",
   },
   {
     icon: Film,
-    image: "https://placehold.co/500x650/4a3f2f/e4dccc?text=Aerial+View",
+    image: "public\images\YVG_04.png",
     title: "High-Quality 4K",
     subtitle: "Virtual Tours",
   },
