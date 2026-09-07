@@ -1,6 +1,7 @@
 import YourVirtualGateway from "@/components/home/your-virtual-gateway"
 import FeaturedDestination from "@/components/home/featured-destinations";
 import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 export default function HomePage(){
     return (
@@ -8,9 +9,14 @@ export default function HomePage(){
 
 <Navbar/>
 
+
+
 <YourVirtualGateway/>
 
 <FeaturedDestination/>
+
+<Footer/>
+
 </>
     );
 }
