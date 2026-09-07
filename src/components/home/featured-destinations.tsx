@@ -2,19 +2,19 @@ type Destination = { name: string; image: string };
 const destinations = [
   {
     name: "Sigiriya Rock Fortress",
-    image: "public\images\FD_01.png",
+    image: "/images/FD_01.png",
   },
   {
     name: "Temple of the Tooth Relic",
-    image: "public\images\FD_02.png",
+    image: "/images/FD_02.png",
   },
   {
     name: "Unawatuna Beach",
-    image: "public\images\FD_03.png",
+    image: "/images/FD_03.png",
   },
   {
     name: "Yala National Park",
-    image: "public\images\FD_04.png",
+    image: "/images/FD_04.png",
   },
 ];
       
