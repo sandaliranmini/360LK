@@ -1,5 +1,5 @@
   
-export default function FeaturedDestination() {
+export default function Navigation() {
     return( 
     <section className="bg-[#f0e4c8] px-6 py-16 md:px-12">
           <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
@@ -18,10 +18,12 @@ export default function FeaturedDestination() {
             </div>
   
             <div className="overflow-hidden rounded-sm shadow-lg">
-              <img
-                src="https://placehold.co/900x700/3f5a3a/dce8dc?text=Sri+Lanka+Map"
-                alt="Interactive map of Sri Lanka's central region"
-                className="h-full w-full object-cover"
+              <iframe
+                src="https://maps.google.com/maps?q=Sri%20Lanka&t=k&z=8&ie=UTF8&iwloc=&output=embed"
+                title="Interactive map of Sri Lanka's central region"
+                className="h-100 w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
           </div>
