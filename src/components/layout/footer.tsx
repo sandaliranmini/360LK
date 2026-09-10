@@ -40,7 +40,7 @@ export default function Footer() {
         ))}
       </div>
 
-      <p className="mt-10 text-center text-xs text-[#a99d80]">© 2025 360LK</p>
+      <p className="mt-10 text-center text-xs text-[#a99d80]">© 2026 360LK</p>
     </footer>
   );
 }
