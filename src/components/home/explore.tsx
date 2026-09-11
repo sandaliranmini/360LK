@@ -23,7 +23,7 @@ const whyExplore = [
   },
 ];
 
-export default function FeaturedDestination() {
+export default function Explore() {
     return(
 <section className="bg-[#faf6ec] px-6 py-16 md:px-12">
         <div className="mx-auto max-w-6xl text-center">
