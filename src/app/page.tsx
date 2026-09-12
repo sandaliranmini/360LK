@@ -5,6 +5,7 @@ import Footer from "@/components/layout/footer";
 import Hero from "@/components/home/hero-video";
 import Navigation from "@/components/home/navigation";
 import Explore from "@/components/home/explore";
+import Start from "@/components/home/start";
 
 export default function HomePage(){
     return (
@@ -21,6 +22,8 @@ export default function HomePage(){
 <Navigation/>
 
 <Explore/>
+
+<Start/>
 
 <Footer/>
 
